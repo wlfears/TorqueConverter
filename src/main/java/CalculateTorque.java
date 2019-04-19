@@ -45,8 +45,6 @@ public class CalculateTorque extends AppCompatActivity {
                 DecimalFormat df = new DecimalFormat("#.##");
                 String tsString = df.format(ts);
 
-                int temp;
-
                 torqueSettingTextView.setText(tsString);
             }
         });
